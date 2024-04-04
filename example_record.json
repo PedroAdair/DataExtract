@@ -1,0 +1,17 @@
+{
+    "idProducto": 1,
+    "clasificacion": "Fungicida",
+    "nombreComercial": "Captan 50",
+    "ingredienteActivo": "Captan",
+    "pIA": 50,
+    "fracIrac": "M04",
+    "modoAccion": "Contacto",
+    "controlFavorece": "Tizón Tardío + Mancha de la hoja + Mancha Gris + Botrytis + Damping-off",
+    "modoAplicacion": "Foliar/Drench",
+    "diasProteccion": "12-14 días",
+    "etiqueta": "Azul",
+    "marca": "ADAMA",
+    "fechaVencimiento": {
+      "$date": "2024-03-07T00:00:00.000Z"
+    }
+  }
