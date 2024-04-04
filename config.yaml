@@ -1,55 +1,42 @@
+Clasificacion:
+- "Fertilizante L\xEDquido"
+- Fitoregulador
+- Fungicida
+- Insecticida
+- Acaricida
 Empresas:
-  "Albaugh"
-  "Algas Pacific"
-  "Altiara"
-  "AMVAC"
-  "ARTAL"
-  "BASF"
-  "BAYER"
-  "BIOAMVAC"
-  "BIOBEST"
-  'Biokrone'
-  "Biotagri"
-  "CIAGRO"
-  "Corteva"
-  "Cosmocel"
-  "DOW"
-  "Dragon"
-  "DUCOR"
-  "DUPONT"
-  "Dux Biotech"
-  "FAGRO"
-  "FMC"
-  "GOWAN"
-  "GreenCorp"
-  "GreenHow"
-  "HAIFA"
-  "HDM"
-  "HELM"
-  "HORTITEC"
-  "Idai Nature"
-  "Innovación Agrícola"
-  "Innovak"
-  "INTRAKAM"
-  "KOPPERT"
-  "Lida"
-  "LUCAVA"
-  "MS AGROS"
-  "PHC"
-  "PLANTORIA"
-  "PTI"
-  "SIFATEC"
-  "SQM"
-  "Stoller"
-  "Summit Agro"
-  "SYNGENTA"
-  "Tradecorp"
-  "TNI"
-  "Valagro"
-  "Valent"
-  "Versa"
-  "YARA"
-  "Metalosate"
-  "Koor Agro"
-  "UPL"
-  "Alliagro"
+- Albaugh
+- Algas Pacific
+- Altiara
+control:
+- "Tiz\xF3n Tard\xEDo"
+- Mancha de la hoja
+- Mancha Gris
+- Botrytis
+- Damping-off
+etiqueta:
+- S/color
+- Amarillo
+- Azul
+- Blanco
+- Morado
+- Verde
+favorece:
+- Fruto
+- Raiz
+modoAccion:
+- "Bioestimulaci\xF3n"
+- Enrraizador
+- Promotor de microorganismos
+- balance hormonal
+- "Sist\xE9mico"
+- Contacto
+- "Ingesti\xF3n"
+- Traslaminar
+modoAplicacion:
+- Foliar/Drench
+- Riego
+- "Preparaci\xF3n de mezclas"
+productosRegistrados:
+- Algas Pacific/Ecoterra_v1.1.pdf
+- Algas Pacific/Ecoterra_v1.1.pdf
