@@ -5,10 +5,12 @@ Clasificacion:
 - Insecticida
 - Acaricida
 Empresas:
+- Agregar
 - Albaugh
 - Algas Pacific
 - Altiara
 control:
+- Agregar
 - "Tiz\xF3n Tard\xEDo"
 - Mancha de la hoja
 - Mancha Gris
@@ -40,3 +42,10 @@ modoAplicacion:
 productosRegistrados:
 - Algas Pacific/Ecoterra_v1.1.pdf
 - Algas Pacific/Ecoterra_v1.1.pdf
+- Albaugh/Ecoterra_v1.1.pdf
+- Albaugh/Ecoterra_v1.1.pdf
+- Altiara/ALTIARA- asphix90.pdf
+- Albaugh/ALBAUGH-hibioHi10Sc.pdf
+- Albaugh/ALBAUGH-hibioHi20Wg.pdf
+- Algas Pacific/ALGAS PACIFIC-znKelp.pdf
+- Trial2/Ecoterra_v1.1.pdf
