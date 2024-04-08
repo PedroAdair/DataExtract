@@ -33,17 +33,12 @@ with tabs[0]:
     col1, col2, col3 = st.columns(3)
     with col1:
         companies  = config['Empresas']
-        selection = st.selectbox("Selecciona clasificacion del producto", companies)
-        if selection in ['Agregar']:
+        selection = st.multiselect("Selecciona clasificacion del producto", companies, [])
+        if 'Agregar' in selection:
             selection = st.text_input("Ingrese un nuevo nombre")
-            if st.button('Confirmar'):
-                st.write("Nueva empresa registrada", selection)
-                config_editado = config
-                config_editado['Empresas'].append(selection)
-                with open('config.yaml', 'w') as config_editado:
-                    yaml.dump(config, config_editado)
-        else:
-            st.write("Empresa registrada", selection)
+            if st.button('Confirmar nombre de la Empresa'):
+                st.write("Nueva emopresa registrada", selection)
+
     with col2:
         clasificacion  = config['Clasificacion']
         clasif = st.multiselect("Selecciona clasificacion del producto", clasificacion, [])
@@ -63,13 +58,15 @@ with tabs[0]:
     with col7:
         control  = config['control']
         problemas_controla = st.multiselect("Problema que controla el producto", control, [])
-        if problemas_controla in ['Agregar']:
+        if 'Agregar' in problemas_controla:
             problemas_controla = st.text_input("Ingrese un nuevo tipo de incidente")
-            if st.button('Confirmar'):
-                st.write("Nueva problematica registrada", selection)
-                config['control'].append(selection)
-                with open('config.yaml', 'w') as config_orig:
-                    yaml.dump(config_orig, config)
+            if st.button('Confirmar problematica'):
+                st.write("Nueva problematica registrada", problemas_controla)
+            # if st.button('Agregar'):
+            #     st.write("Nueva problematica registrada", problemas_controla)
+            #     config['control'].append(problemas_controla)
+            # else:
+            # st.write("Empresa registrada", selection)
     with col8:
         favorece  = config['favorece']
         favorece_ = st.multiselect("Selecciona lo que favorece  el producto", favorece, [])
