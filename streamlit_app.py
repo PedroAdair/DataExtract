@@ -92,8 +92,7 @@ with tabs[0]:
             print(type(archivo.name))
 
             ruta_archivo = os.path.join(selection, archivo.name)
-            # with open(ruta_archivo, "wb") as f:
-            #     f.write(archivo.getbuffer())
+            print(ruta_archivo)
             st.success("Archivo guardado exitosamente")
 
             # product_list = config['productosRegistrados']
